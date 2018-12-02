@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">HiTorch</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_plus">Add Review</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="pw">******</string>
+    <string name="sign">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="where_to_go">Where to go?</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="your_review">Your review</string>
+    <string name="trip_plan">Trip Plan</string>
+
+    <string-array name="regions">
+        <item>Andijan</item>
+        <item>Bukhara</item>
+        <item>Fergana</item>
+        <item>Jizzakh</item>
+        <item>Khorezm</item>
+        <item>Namangan</item>
+        <item>Navoi</item>
+        <item>Kashkadarya</item>
+        <item>Syrdarya</item>
+        <item>Surkhandarya</item>
+        <item>Tashkent region</item>
+        <item>Karakalpakistan</item>
+        <item>Tashkent</item>
+        <item>Samarkand</item>
+    </string-array>
+
+</resources>

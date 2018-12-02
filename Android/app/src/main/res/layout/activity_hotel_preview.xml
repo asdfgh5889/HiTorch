@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/background_gradient"
+            android:src="@drawable/background"
+            />
+
+        <TextView
+            android:id="@+id/h_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Hotel name"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <RatingBar
+            android:id="@+id/h_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_margin="5dp"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:rating="3.5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12554- reviews"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                android:drawablePadding="6dp"
+                android:gravity="left|center"
+                android:height="60dp"
+                android:padding="6dp"
+                android:text="Nov 30- Dec 1, 1 night  "
+                android:textColor="#000"
+                android:textStyle="normal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@android:drawable/ic_partial_secure"
+                android:drawablePadding="6dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left|center"
+                android:height="60dp"
+                android:padding="6dp"
+                android:text="1-day, 2 people  "
+                android:textColor="#000"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOP DEAL"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/h_txt_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UZS 12 222 511"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="View Deal"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="View All deals from Uzb"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="15dp"
+            android:layout_margin="10dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/feedback_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

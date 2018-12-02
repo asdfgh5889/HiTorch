@@ -1,0 +1,73 @@
+{
+    "name": "Trip_planner",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "0515721d-4596-4d9d-a83d-0f87401d186f",
+            "subscriptionId": "e5fbfba7-2487-4e1a-8c50-819f3efe66ea",
+            "resourceGroup": "user_interaction",
+            "serviceName": "Trip_planner",
+            "name": "Trip_planner",
+            "id": "1",
+            "appId": "68f9b078-6e1e-4b52-bf87-6fe62c97f6c9"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=tripplannerb905;AccountKey=6wIz09Ww0SlgWYXNd1x+kdcuK9zU7ubDSF1g5sb4d6KM7cUaRoZDjiP6R+ScAXcLbbetYu7D880oSLr8TdN2fg==;",
+            "tenantId": "0515721d-4596-4d9d-a83d-0f87401d186f",
+            "subscriptionId": "e5fbfba7-2487-4e1a-8c50-819f3efe66ea",
+            "resourceGroup": "user_interaction",
+            "serviceName": "tripplannerb905",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "68f9b078-6e1e-4b52-bf87-6fe62c97f6c9",
+            "appPassword": "Qh-ab.bA+EG{i]Jp",
+            "endpoint": "https://tripplanner-b905.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "47ff0178-1cc7-4aa8-b004-7902544e84ed",
+            "applicationId": "f9cf4535-b95d-4220-a3df-6a83c8cd1971",
+            "apiKeys": {},
+            "tenantId": "0515721d-4596-4d9d-a83d-0f87401d186f",
+            "subscriptionId": "e5fbfba7-2487-4e1a-8c50-819f3efe66ea",
+            "resourceGroup": "user_interaction",
+            "serviceName": "Trip_plannerfp6pzd",
+            "id": "5"
+        },
+        {
+            "type": "luis",
+            "appId": "8e5c7be1-c846-45d7-84db-b5712ed6a7e3",
+            "authoringKey": "13e992c9a1734426a93290eaa9ed35bf",
+            "version": "0.1",
+            "region": "westeurope",
+            "name": "BasicBotLuisApplication",
+            "id": "6"
+        },
+        {
+            "type": "luis",
+            "name": "hitorch",
+            "appId": "af633f73-1c20-4134-8a2c-3cf1accde5a0",
+            "version": "0.1",
+            "authoringKey": "d432b55171aa49498586808972ae9200",
+            "subscriptionKey": "d432b55171aa49498586808972ae9200",
+            "region": "westus",
+            "id": "7"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
