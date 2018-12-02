@@ -1,4 +1,4 @@
-#HiTorch - Inteligent tourism data collection
+# HiTorch - Inteligent tourism data collection
 
 Team:
   - Sherzod Niyazov
