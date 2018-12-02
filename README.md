@@ -1,7 +1,7 @@
 HiTorch - Inteligent tourism data collection
 
-Team:
-Sherzod Niyazov
-Sardorkhuja Ibrokhimov
-Eldor Abdukhamidov
+Team:\n
+Sherzod Niyazov \n
+Sardorkhuja Ibrokhimov \n
+Eldor Abdukhamidov \n
 Mukhammadsher Shermamatov
